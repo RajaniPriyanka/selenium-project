@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="HomePage">
+    <classes>
+    <class name="zwiftProject.zwiftProjectSample.homePageTest"/>
+       </classes>
+         </test> 
+     <test name="EventPage">
+        <classes>
+    <class name="zwiftProject.zwiftProjectSample.eventPageTest"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
+

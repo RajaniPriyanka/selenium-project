@@ -72,7 +72,7 @@ public class homePageTest extends basePage {
 			{
 		        //System.out.println(driver.getTitle());
 		        String Title=hpage.pagetitle();
-				String Expected="The at Home Cycling  Running Virtual Training App";
+				String Expected="The at Home Cycling & Running Virtual Training App";
 				//Assertions can also be used to validate the pageTitle and returns true on successful validation 
 				// Assert.assertEquals(Title, Expected);
 		        if (Title.equals(Expected)) {

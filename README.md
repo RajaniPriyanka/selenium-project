@@ -1,4 +1,4 @@
-# selenium-example
+# selenium-example 
 
 Prerequisites
 
@@ -43,7 +43,7 @@ Setting up Eclipse
 
 Navigate to the https://www.eclipse.org/downloads/ and download eclipse for Java EE developers.
 
-1.Installing a Plugin:
+1.Installing a TestNG Plugin:
 
   Inside Eclipse, click on the Help menu
   
@@ -81,7 +81,7 @@ Maven dependencies are crucial to running any Maven project.
 
 Maven dependencies contains key references to libraries that a Maven project needs to execute. The pom.xml in the root of a Maven project file stores the dependencies for a project.
 
-Running the Project
+Running the Test cases
 
 1.From Eclipse
 

@@ -2,13 +2,13 @@
 
 Prerequisites
 
-1.Eclipse IDE
+1.Eclipse IDE Version: 2020-03 (4.15.0)
 
-2.JAVA JDK
+2.JAVA version "1.8.0_251"
 
-3.Maven
+3.Apache Maven 3.6.3
 
-4.TestNG
+4.TestNG 7.1.0
 
 5.Chrome Version 83.0.4103.106 
 
@@ -69,23 +69,11 @@ Navigate to the https://www.eclipse.org/downloads/ and download eclipse for Java
    
  Setting up Maven
    
- 1.Download Maven https://maven.apache.org/download.cgi
- 
- 2.Unzip the distribution archive to the directory you wish to install Maven. I extracted maven to my Documents folder.
- 
- 3.Add Maven to the PATH. More information can be found in the README.txt in the zip folder.
- 
-   Here's an example of how I added Maven to my PATH on MacOS. I added the folowing to the ~/.bash_profile.
-   
-     $ export PATH=/Users/admin/Documents/Software/apache-maven-3.5.0/bin:$PATH
-     
-   Then sourced (execute) the content of the ~/.bash_profile
-   
-     $ source ~/.bash_profile
-     
- 4.Verify Maven was correctly installed
- 
-   Command:
+1.Install Maven from http://maven.apache.org/install.html
+
+2.Verify Maven was correctly installed
+
+  Command:
    
      $ mvn –version
      
@@ -97,7 +85,7 @@ Running the Project
 
 1.From Eclipse
 
-  Import this project into Eclispe. 
+  Import this project into the Eclispe. 
   
   Right click the project then select Run As then Maven install to add all the dependencies from pom.xml.
   

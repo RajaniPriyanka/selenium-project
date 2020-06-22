@@ -95,7 +95,7 @@ Maven dependencies contains key references to libraries that a Maven project nee
   
      ![ScreenShot](https://i.postimg.cc/pXkMQkSV/RunTests.png)
      
-## TestNG Report 
+## TestNG Reports 
 
  - The TestNG will generate the default report.
  

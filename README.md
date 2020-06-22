@@ -86,7 +86,7 @@ Maven dependencies contains key references to libraries that a Maven project nee
   - Import this project into the Eclispe. 
   
   - Right click the project then select Run As then Maven install to add all the dependencies from pom.xml.
- ![Optional Text](C:\Users\rpchi\MavenInstall)
+    ![ScreenShot](https://postimg.cc/94NXRtRZ)
   
   - Right click the project then select Run As then TestNG Test.
   

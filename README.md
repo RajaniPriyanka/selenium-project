@@ -102,16 +102,14 @@ Maven dependencies contains key references to libraries that a Maven project nee
  **Method-1: emailable-report.html**
  
  - Click on option "emailable-report.html"
-   
-   ![ScreenShot]()
  
  - Click on option web browser
    
-   ![ScreenShot]()
+   ![ScreenShot](https://i.postimg.cc/brLpm2P4/emailablereport.png)
  
 The output report of testng will look like below if both the classes are passed:
    
-   ![ScreenShot]()
+   ![ScreenShot](https://i.postimg.cc/prmFvxdG/emailable1.png)
  
  **Method-2: index.html**
  
@@ -119,10 +117,10 @@ The output report of testng will look like below if both the classes are passed:
  
  - Select option open with web browser option. It will display the result in the following order.
  
-  ![ScreenShot]()
+  ![ScreenShot](https://i.postimg.cc/sxxNRBSk/index.png)
  
  The result will look like this:
  
-  ![ScreenShot]()
+  ![ScreenShot](https://i.postimg.cc/zD4s1jtp/index1.png)
  
  

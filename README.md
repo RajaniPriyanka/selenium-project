@@ -20,15 +20,15 @@ There are a few things we need before running the tests. These are:
 
 2.Setting up Eclipse
 
-  Installing TestNG
+  -Installing TestNG
   
-  Setting up Maven
+  -Setting up Maven
   
 3.Running the Project
 
   From Eclipse
 
-**Java Installation / Update
+**Java Installation / Update**
 
 Check your system to see if you have the latest Java version installed.
 
@@ -67,7 +67,7 @@ Navigate to the https://www.eclipse.org/downloads/ and download eclipse for Java
    
    Click on the Finish button
    
-**Setting up Maven
+**Setting up Maven**
    
 1.Install Maven from http://maven.apache.org/install.html
 

@@ -26,47 +26,45 @@ public class basePage {
 	public WebDriver initializeDriver() throws IOException
 	{
 		try {
-		prop =new Properties();
-		//FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\data.properties");
-		FileInputStream fis=new FileInputStream("src\\main\\java\\resources\\data.properties");
-		prop.load(fis);
+		   prop =new Properties();
+		   FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\data.properties");
+		   prop.load(fis);
 		}catch(Exception e) {
-			e.printStackTrace();
+		   e.printStackTrace();
 		}
         String browserName=prop.getProperty("browser");
         //To invoke Chrome browser
        if(browserName.equals("chrome"))
     		   {
     	 
-    	  WebDriverManager.chromedriver().setup();
-    	  driver=new ChromeDriver();
+    	        WebDriverManager.chromedriver().setup();
+    	        driver=new ChromeDriver();
     		   }   else if (browserName.equals("firefox"))
     		   {
     	 
-    	  WebDriverManager.firefoxdriver().setup();
-    	  driver=new FirefoxDriver();
+    	        WebDriverManager.firefoxdriver().setup();
+    	       driver=new FirefoxDriver();
     		   }else if (browserName.equals("IE"))
     		   {
     	 
-    	  WebDriverManager.iedriver().setup();
-    	  driver=new InternetExplorerDriver();
+    	        WebDriverManager.iedriver().setup();
+    	       driver=new InternetExplorerDriver();
     		   }
-       driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-       return driver;
+         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+         return driver;
         
 	}
 	
 
 	public void getScreenshot(String result) throws IOException
 	{
-		// Take screenshot and store as a file format
-		File Src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		try {
-	   FileUtils.copyFile(Src,new File("Screenshots\\"+result+".png"));
-		}
-		catch (IOException e)
-		{
+	 // Take screenshot and store as a file format
+	File Src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+	  try {
+	     FileUtils.copyFile(Src,new File("Screenshots\\"+result+".png"));
+	}catch (IOException e)
+	     {
 		System.out.println(e.getMessage());
-		  }
+	      }
 	}
 }

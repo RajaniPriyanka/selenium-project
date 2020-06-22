@@ -45,26 +45,26 @@ public class homePageTest extends basePage {
 			@Test(priority=0)
 			public void validateHomePageLoad()
 			{
-				try {
+			try {
 				driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 				System.out.println("HomePageload Success");
-				}catch(Exception e)
-				{
-					System.out.println("HomePageload delayed");
-				}
+			}catch(Exception e)
+			{
+				System.out.println("HomePageload delayed");
+			}
 				
 			}
 			@Test(priority=2)
 			public void EventsNavigationbar()
 			{
-				try {
+			try {
 					 
-					hpage.eventsNavbar(driver).click();
-				    System.out.println("Events navigation link has been clicked");
+				hpage.eventsNavbar(driver).click();
+				System.out.println("Events navigation link has been clicked");
 			}catch(Exception e)
-				{
+			{
 				e.printStackTrace();
-				}
+			}
 					
 			}
 			@Test(priority=1)
@@ -72,13 +72,12 @@ public class homePageTest extends basePage {
 			{
 		        //System.out.println(driver.getTitle());
 		        String Title=hpage.pagetitle();
-				String Expected="The at Home Cycling & Running Virtual Training App";
-				//Assertions can also be used to validate the pageTitle and returns true on successful validation 
-				// Assert.assertEquals(Title, Expected);
+			String Expected="The at Home Cycling & Running Virtual Training App";
+			// Assert.assertEquals(Title, Expected);
 		        if (Title.equals(Expected)) {
-		                   System.out.println("Pagetitle verification Test Passed");
+		                 System.out.println("Pagetitle verification Test Passed");
 		        } else {
-		                   System.out.println("Pagetitle verification Test Failed");
+		                 System.out.println("Pagetitle verification Test Failed");
 		                 hpage.getScreenshot("PageTitleVerificationFailed");
 		        }
 			}

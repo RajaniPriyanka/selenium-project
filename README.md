@@ -1,8 +1,8 @@
 # selenium-example 
 
-Prerequisites
+**Prerequisites**
 
-1.Eclipse IDE Version: 2020-03 (4.15.0)
+1.Eclipse IDE 
 
 2.JAVA version "1.8.0_251"
 
@@ -12,7 +12,7 @@ Prerequisites
 
 5.Chrome Version 83.0.4103.106 
 
-Table Of Contents 
+**Table Of Contents**
 
 There are a few things we need before running the tests. These are:
 
@@ -28,7 +28,7 @@ There are a few things we need before running the tests. These are:
 
   From Eclipse
 
-Java Installation / Update
+**Java Installation / Update
 
 Check your system to see if you have the latest Java version installed.
 
@@ -39,13 +39,13 @@ $ java -version
 If you do not have the latest Java installed, find out how to install Java https://www.java.com/en/download/help/download_options.xml
 Ensure your JAVA_HOME environment to the location of the installed JDK. Find out how to do that https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/
 
-Setting up Eclipse
+**Setting up Eclipse**
 
 Navigate to the https://www.eclipse.org/downloads/ and download eclipse for Java EE developers.
 
-1.Installing a TestNG Plugin:
+**Installing a TestNG Plugin:**
 
-  Inside Eclipse, click on the Help menu
+  1.Inside Eclipse, click on the Help menu
   
   Select Install New Software.
   
@@ -67,7 +67,7 @@ Navigate to the https://www.eclipse.org/downloads/ and download eclipse for Java
    
    Click on the Finish button
    
- Setting up Maven
+**Setting up Maven
    
 1.Install Maven from http://maven.apache.org/install.html
 
@@ -81,7 +81,7 @@ Maven dependencies are crucial to running any Maven project.
 
 Maven dependencies contains key references to libraries that a Maven project needs to execute. The pom.xml in the root of a Maven project file stores the dependencies for a project.
 
-Running the Test cases
+## Running the Test cases
 
 1.From Eclipse
 

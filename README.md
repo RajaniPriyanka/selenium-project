@@ -1,9 +1,14 @@
 # selenium-example
 Prerequisites
 1.Eclipse IDE
-2.Maven
-3.TestNG
-4.Chrome Version 83.0.4103.106 
+
+2.JAVA JDK
+
+3.Maven
+
+4.TestNG
+
+5.Chrome Version 83.0.4103.106 
 
 Table Of Contents 
 

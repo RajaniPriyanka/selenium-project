@@ -61,7 +61,7 @@ public class basePage {
 	 // Take screenshot and store as a file format
 	File Src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	  try {
-	     FileUtils.copyFile(Src,new File("Screenshots\\"+result+".png"));
+	     FileUtils.copyFile(Src,new File("Screenshots/"+result+".png"));
 	}catch (IOException e)
 	     {
 		System.out.println(e.getMessage());

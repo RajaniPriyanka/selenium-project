@@ -59,7 +59,7 @@ public class homePageTest extends basePage {
 			{
 		      
 		                String Title=hpage.pagetitle();
-			         String Expected="The at Home Cycling  Running Virtual Training App";
+			         String Expected="The at Home Cycling & Running Virtual Training App";
 		        if (Title.equals(Expected)) {
 		                   System.out.println("Pagetitle verification Test Passed");
 		        } else {

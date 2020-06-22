@@ -63,8 +63,8 @@ public void validateEventsPageLoad()
 					//Set each option as selected 
 					selectStartTimes.selectByVisibleText(optionsS.get(k).getText());
 					//Determine if a selection has events
-                    boolean hasEvents=epage.firstColumnExists(driver);
-                    int total=0;	
+                                      boolean hasEvents=epage.firstColumnExists(driver);
+                                      int total=0;	
 				    	//Calculate total number of events only if there are events
 					    if(hasEvents) 
 					    	total = epage.getEventsCount(driver);					    	

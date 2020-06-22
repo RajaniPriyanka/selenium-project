@@ -20,13 +20,13 @@ There are a few things we need before running the tests. These are:
 
 2.Setting up Eclipse
 
-  -Installing TestNG
+  - Installing TestNG
   
-  -Setting up Maven
+  - Setting up Maven
   
 3.Running the Project
 
-  From Eclipse
+  - From Eclipse
 
 **Java Installation / Update**
 
@@ -47,25 +47,25 @@ Navigate to the https://www.eclipse.org/downloads/ and download eclipse for Java
 
   1.Inside Eclipse, click on the Help menu
   
-  Select Install New Software.
+   - Select Install New Software.
   
  2.Locating the Plugin:
  
-   Click the Add button
+   - Click the Add button
    
-   Enter http://dl.bintray.com/testng-team/testng-eclipse-release/ in the Location field
+   - Enter http://dl.bintray.com/testng-team/testng-eclipse-release/ in the Location field
    
  3.Selecting the Plugin:
  
-   Ensure the TestNG checkbox is selected
+   - Ensure the TestNG checkbox is selected
    
-   Click the "Next" button to the right bottom
+   - Click the "Next" button to the right bottom
    
  4.Finishing up:
  
-   Accept the terms of the license agreement
+   - Accept the terms of the license agreement
    
-   Click on the Finish button
+   - Click on the Finish button
    
 **Setting up Maven**
    
@@ -85,11 +85,11 @@ Maven dependencies contains key references to libraries that a Maven project nee
 
 1.From Eclipse
 
-  Import this project into the Eclispe. 
+  - Import this project into the Eclispe. 
   
-  Right click the project then select Run As then Maven install to add all the dependencies from pom.xml.
+  - Right click the project then select Run As then Maven install to add all the dependencies from pom.xml.
   
-  Right click the project then select Run As then TestNG Test.
+  - Right click the project then select Run As then TestNG Test.
   
   
   

@@ -12,6 +12,8 @@
 
 5.Chrome Version 83.0.4103.106 
 
+6.MAC OS
+
 **Table Of Contents**
 
 There are a few things we need before running the tests. These are:

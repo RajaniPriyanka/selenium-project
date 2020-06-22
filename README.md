@@ -2,7 +2,7 @@
 
 **Prerequisites**
 
-1.Eclipse IDE 
+1.Eclipse IDE Version: 2020-03 (4.15.0)
 
 2.JAVA version "1.8.0_251"
 

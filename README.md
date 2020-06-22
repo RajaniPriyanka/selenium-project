@@ -89,8 +89,47 @@ Maven dependencies contains key references to libraries that a Maven project nee
     ![ScreenShot](https://i.postimg.cc/ZRJWQwJ7/Maven-Install.png)
   
   - Right click the project then select Run As then TestNG Test.
+     ![ScreenShot](https://i.postimg.cc/pXkMQkSV/RunTests.png)
   
+   
   
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

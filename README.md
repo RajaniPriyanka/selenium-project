@@ -1,5 +1,7 @@
 # selenium-example
+
 Prerequisites
+
 1.Eclipse IDE
 
 2.JAVA JDK

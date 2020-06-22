@@ -45,49 +45,48 @@ public class homePageTest extends basePage {
 			@Test(priority=0)
 			public void validateHomePageLoad()
 			{
-				try {
+			try {
 				driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 				System.out.println("HomePageload Success");
-				}catch(Exception e)
-				{
+			}catch(Exception e)
+			    {
 					System.out.println("HomePageload delayed");
-				}
+			    }
 				
 			}
 			@Test(priority=1)
 			public void validatePageTitle() throws IOException
 			{
-		        //System.out.println(driver.getTitle());
-		       String Title=hpage.pagetitle();
-				String Expected="The at Home Cycling  Running Virtual Training App";
+		      
+		                String Title=hpage.pagetitle();
+			         String Expected="The at Home Cycling  Running Virtual Training App";
 		        if (Title.equals(Expected)) {
 		                   System.out.println("Pagetitle verification Test Passed");
 		        } else {
 		                   System.out.println("Pagetitle verification Test Failed");
-		                 hpage.getScreenshot("PageTitleVerificationFailed");
+		                   hpage.getScreenshot("PageTitleVerificationFailed");
 		        }
 			}
 			@Test(priority=2)
 			public void validateCreateAccountPresent() throws IOException
 			{
 		        if (hpage.createAccount(driver).isDisplayed()) {
-		                   System.out.println("CreateAccount webelement is present");
+		                  System.out.println("CreateAccount webelement is present");
 		        } else {
-		                   System.out.println("CreateAccount webelement is not present");
-		                 hpage.getScreenshot("ValidationCreateAccountFailed");
+		                  System.out.println("CreateAccount webelement is not present");
+		                  hpage.getScreenshot("ValidationCreateAccountFailed");
 		        }
 			}
 			@Test(priority=3)
 			public void EventsNavigationbar()
 			{
-				try {
-					 
-					hpage.eventsNavbar(driver).click();
-				    System.out.println("Events navigation link has been clicked");
+			try {
+			        hpage.eventsNavbar(driver).click();
+			         System.out.println("Events navigation link has been clicked");
 			}catch(Exception e)
-				{
+			    {
 				e.printStackTrace();
-				}
+			    }
 					
 			}
 			

@@ -93,7 +93,7 @@ Maven dependencies contains key references to libraries that a Maven project nee
   
      ![ScreenShot](https://i.postimg.cc/pXkMQkSV/RunTests.png)
      
-##TestNG Report 
+## TestNG Report 
 
  - The TestNG will generate the default report.
  
@@ -117,10 +117,10 @@ The output report of testng will look like below if both the classes are passed:
  
  - Select option open with web browser option. It will display the result in the following order.
  
-  ![ScreenShot](https://i.postimg.cc/sxxNRBSk/index.png)
+   ![ScreenShot](https://i.postimg.cc/sxxNRBSk/index.png)
  
  The result will look like this:
  
-  ![ScreenShot](https://i.postimg.cc/zD4s1jtp/index1.png)
+   ![ScreenShot](https://i.postimg.cc/zD4s1jtp/index1.png)
  
  

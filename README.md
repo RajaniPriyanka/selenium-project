@@ -1,5 +1,12 @@
 # selenium-example
 Prerequisites
+1.Eclipse IDE
+2.Maven
+3.TestNG
+4.Chrome Version 83.0.4103.106 
+
+Table Of Contents 
+
 There are a few things we need before running the tests. These are:
 
 1.Java Installation / Update
@@ -13,10 +20,6 @@ There are a few things we need before running the tests. These are:
 3.Running the Project
 
   From Eclipse
-  
-  From Terminal
-  
-4.Drivers 
 
 Java Installation / Update
 
@@ -26,12 +29,12 @@ Command:
 
 $ java -version
 
-If you do not have the latest Java installed, find out how to install Java here.
-Ensure your JAVA_HOME environment to the location of the installed JDK. Find out how to do that here.
+If you do not have the latest Java installed, find out how to install Java https://www.java.com/en/download/help/download_options.xml
+Ensure your JAVA_HOME environment to the location of the installed JDK. Find out how to do that https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/
 
 Setting up Eclipse
 
-Navigate to the Eclipse download page and download eclipse for Java EE developers.
+Navigate to the https://www.eclipse.org/downloads/ and download eclipse for Java EE developers.
 
 1.Installing a Plugin:
 
@@ -59,7 +62,7 @@ Navigate to the Eclipse download page and download eclipse for Java EE developer
    
  Setting up Maven
    
- 1.Download Maven here.
+ 1.Download Maven https://maven.apache.org/download.cgi
  
  2.Unzip the distribution archive to the directory you wish to install Maven. I extracted maven to my Documents folder.
  
@@ -87,7 +90,13 @@ Running the Project
 
 1.From Eclipse
 
-  Import this project into Eclispe
+  Import this project into Eclispe. 
   
-  Right click the project then select Run As then Maven Tests
+  Right click the project then select Run As then Maven install to add all the dependencies from pom.xml.
+  
+  Right click the project then select Run As then TestNG Test.
+  
+  
+  
+  
 

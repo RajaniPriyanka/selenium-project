@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="EventPage(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="zwiftProject.zwiftProjectSample.eventPageTest">
         <methods>
           <include name="teardown"/>
           <include name="validateDropdownEvents"/>
           <include name="intialize"/>
+          <include name="validateEventsPageLoad"/>
         </methods>
       </class> <!-- zwiftProject.zwiftProjectSample.eventPageTest -->
+      <class name="zwiftProject.zwiftProjectSample.homePageTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="validateHomePageLoad"/>
+          <include name="EventsNavigationbar"/>
+          <include name="teardown"/>
+          <include name="validatePageTitle"/>
+        </methods>
+      </class> <!-- zwiftProject.zwiftProjectSample.homePageTest -->
     </classes>
-  </test> <!-- EventPage(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

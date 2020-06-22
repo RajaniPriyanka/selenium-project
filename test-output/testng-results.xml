@@ -1,119 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-21T16:16:58 PDT" name="Suite" finished-at="2020-06-21T16:17:22 PDT" duration-ms="23982">
+  <suite started-at="2020-06-21T23:00:51 PDT" name="Suite" finished-at="2020-06-21T23:01:16 PDT" duration-ms="24645">
     <groups>
     </groups>
-    <test started-at="2020-06-21T16:16:58 PDT" name="HomePage" finished-at="2020-06-21T16:17:12 PDT" duration-ms="14461">
+    <test started-at="2020-06-21T23:00:51 PDT" name="HomePage" finished-at="2020-06-21T23:01:02 PDT" duration-ms="10446">
       <class name="zwiftProject.zwiftProjectSample.homePageTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:zwiftProject.zwiftProjectSample.homePageTest@4386f16]" started-at="2020-06-21T16:16:58 PDT" name="initialize" finished-at="2020-06-21T16:17:09 PDT" duration-ms="11588" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:zwiftProject.zwiftProjectSample.homePageTest@41fecb8b]" started-at="2020-06-21T23:00:51 PDT" name="initialize" finished-at="2020-06-21T23:00:57 PDT" duration-ms="5363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="validateHomePageLoad()[pri:0, instance:zwiftProject.zwiftProjectSample.homePageTest@4386f16]" started-at="2020-06-21T16:17:09 PDT" name="validateHomePageLoad" finished-at="2020-06-21T16:17:09 PDT" duration-ms="13" status="PASS">
+        <test-method signature="validateHomePageLoad()[pri:0, instance:zwiftProject.zwiftProjectSample.homePageTest@41fecb8b]" started-at="2020-06-21T23:00:57 PDT" name="validateHomePageLoad" finished-at="2020-06-21T23:00:57 PDT" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHomePageLoad -->
-        <test-method signature="validatePageTitle()[pri:1, instance:zwiftProject.zwiftProjectSample.homePageTest@4386f16]" started-at="2020-06-21T16:17:09 PDT" name="validatePageTitle" finished-at="2020-06-21T16:17:10 PDT" duration-ms="801" status="PASS">
+        <test-method signature="validatePageTitle()[pri:1, instance:zwiftProject.zwiftProjectSample.homePageTest@41fecb8b]" started-at="2020-06-21T23:00:57 PDT" name="validatePageTitle" finished-at="2020-06-21T23:01:00 PDT" duration-ms="3126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageTitle -->
-        <test-method signature="EventsNavigationbar()[pri:2, instance:zwiftProject.zwiftProjectSample.homePageTest@4386f16]" started-at="2020-06-21T16:17:10 PDT" name="EventsNavigationbar" finished-at="2020-06-21T16:17:12 PDT" duration-ms="1830" status="PASS">
+        <test-method signature="EventsNavigationbar()[pri:2, instance:zwiftProject.zwiftProjectSample.homePageTest@41fecb8b]" started-at="2020-06-21T23:01:00 PDT" name="EventsNavigationbar" finished-at="2020-06-21T23:01:02 PDT" duration-ms="1814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EventsNavigationbar -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:zwiftProject.zwiftProjectSample.homePageTest@4386f16]" started-at="2020-06-21T16:17:12 PDT" name="teardown" finished-at="2020-06-21T16:17:12 PDT" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:zwiftProject.zwiftProjectSample.homePageTest@41fecb8b]" started-at="2020-06-21T23:01:02 PDT" name="teardown" finished-at="2020-06-21T23:01:02 PDT" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- zwiftProject.zwiftProjectSample.homePageTest -->
     </test> <!-- HomePage -->
-    <test started-at="2020-06-21T16:17:12 PDT" name="EventPage" finished-at="2020-06-21T16:17:22 PDT" duration-ms="9499">
+    <test started-at="2020-06-21T23:01:02 PDT" name="EventPage" finished-at="2020-06-21T23:01:16 PDT" duration-ms="14186">
       <class name="zwiftProject.zwiftProjectSample.eventPageTest">
-        <test-method is-config="true" signature="intialize()[pri:0, instance:zwiftProject.zwiftProjectSample.eventPageTest@703580bf]" started-at="2020-06-21T16:17:12 PDT" name="intialize" finished-at="2020-06-21T16:17:19 PDT" duration-ms="7160" status="PASS">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:zwiftProject.zwiftProjectSample.eventPageTest@33990a0c]" started-at="2020-06-21T23:01:02 PDT" name="intialize" finished-at="2020-06-21T23:01:09 PDT" duration-ms="7333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialize -->
-        <test-method signature="validateDropdownEvents()[pri:0, instance:zwiftProject.zwiftProjectSample.eventPageTest@703580bf]" started-at="2020-06-21T16:17:19 PDT" name="validateDropdownEvents" finished-at="2020-06-21T16:17:19 PDT" duration-ms="128" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//body[@id='top']//column//column[1]//div[1]//select[1]"}
-  (Session info: chrome=83.0.4103.106)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'LAPTOP-5713D38N', ip: '192.168.86.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\rpchi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53582}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 76a93a807064270bf699bcebf1a05dc1
-*** Element info: {Using=xpath, value=//body[@id='top']//column//column[1]//div[1]//select[1]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body[@id='top']//column//column[1]//div[1]//select[1]"}
-  (Session info: chrome=83.0.4103.106)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'LAPTOP-5713D38N', ip: '192.168.86.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\rpchi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53582}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 76a93a807064270bf699bcebf1a05dc1
-*** Element info: {Using=xpath, value=//body[@id='top']//column//column[1]//div[1]//select[1]}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
-at zwiftProject.zwiftProjectSample.eventsPage.sportsDropdown(eventsPage.java:19)
-at zwiftProject.zwiftProjectSample.eventPageTest.validateDropdownEvents(eventPageTest.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="validateDropdownEvents()[pri:0, instance:zwiftProject.zwiftProjectSample.eventPageTest@33990a0c]" started-at="2020-06-21T23:01:09 PDT" name="validateDropdownEvents" finished-at="2020-06-21T23:01:16 PDT" duration-ms="6744" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDropdownEvents -->
-        <test-method signature="validateEventsPageLoad()[pri:0, instance:zwiftProject.zwiftProjectSample.eventPageTest@703580bf]" started-at="2020-06-21T16:17:19 PDT" name="validateEventsPageLoad" finished-at="2020-06-21T16:17:20 PDT" duration-ms="6" status="PASS">
+        <test-method signature="validateEventsPageLoad()[pri:0, instance:zwiftProject.zwiftProjectSample.eventPageTest@33990a0c]" started-at="2020-06-21T23:01:16 PDT" name="validateEventsPageLoad" finished-at="2020-06-21T23:01:16 PDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateEventsPageLoad -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:zwiftProject.zwiftProjectSample.eventPageTest@703580bf]" started-at="2020-06-21T16:17:20 PDT" name="teardown" finished-at="2020-06-21T16:17:22 PDT" duration-ms="2197" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:zwiftProject.zwiftProjectSample.eventPageTest@33990a0c]" started-at="2020-06-21T23:01:16 PDT" name="teardown" finished-at="2020-06-21T23:01:16 PDT" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

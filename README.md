@@ -81,9 +81,7 @@ Maven dependencies are crucial to running any Maven project.
 
 Maven dependencies contains key references to libraries that a Maven project needs to execute. The pom.xml in the root of a Maven project file stores the dependencies for a project.
 
-## Running the Test cases
-
-1.From Eclipse
+## Running the Test cases from Eclipse TestNG
 
   - Import this project into the Eclispe. 
   

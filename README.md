@@ -92,6 +92,37 @@ Maven dependencies contains key references to libraries that a Maven project nee
   - Right click the project then select Run As then TestNG Test.
   
      ![ScreenShot](https://i.postimg.cc/pXkMQkSV/RunTests.png)
-   
+     
+##TestNG Report 
 
+ - The TestNG will generate the default report.
+ 
+ - When you execute testng.xml file, and refresh the project. You will get test-output folder in that folder.
+ 
+ **Method-1: emailable-report.html**
+ 
+ - Click on option "emailable-report.html"
+   
+   ![ScreenShot]()
+ 
+ - Click on option web browser
+   
+   ![ScreenShot]()
+ 
+The output report of testng will look like below if both the classes are passed:
+   
+   ![ScreenShot]()
+ 
+ **Method-2: index.html**
+ 
+ - Right click on the index.html from the project directory.
+ 
+ - Select option open with web browser option. It will display the result in the following order.
+ 
+  ![ScreenShot]()
+ 
+ The result will look like this:
+ 
+  ![ScreenShot]()
+ 
  
